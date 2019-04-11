@@ -11,6 +11,9 @@
 	  <!-- CDN Bootstrap 4 -->
 	  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
+	  <!-- jquery -->
+	  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
 	  <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500" rel="stylesheet">
 
 	  <!-- Theme CSS - Includes Bootstrap -->
@@ -62,7 +65,7 @@
 
 		<div class="custom-container">
 			<div class="content-welcome">
-				<h1>Speakers</h1>
+				<h1>Experiencia</h1>
 				<h2>Bienvenidos los que<br> quieren <span class="font-weight-bold">cambiarlo todo</span></h2>
 			</div>
 
@@ -70,50 +73,93 @@
 				
 				<div class="col-md-4">
 					<div class="content-men-experience experience-1 mb-5">
-						<div class="content-category">
-							<div class="content-list">
-								<h3 class="text-uppercase c-default mb-0">Beneficios</h3>
-								<ul>
-									<li><img src="img/icon-check.png">BENEFICIOS</li>
-									<li><img src="img/icon-check.png">2 DÍAS DE CONFERENCIAS PRINCIPALES</li>
-									<li><img src="img/icon-check.png">ACCESO AULAS DE CLASS IN CLASS</li>
-									<li><img src="img/icon-check.png">INGRESO EXCLUSIVO</li>
-									<li><img src="img/icon-check.png">BENEFICIOS EXMA VIP</li>
-									<li><img src="img/icon-check.png">UBICACIÓN PREFERENCIAL (PREFERENCIAL)</li>
-									<li><img src="img/icon-check.png">ACCESO PLATAFORMA VIRTUAL</li>
-									<li><img src="img/icon-check.png">CERTIFICADO DIGITAL</li>
-									<li><img src="img/icon-check.png">KIT DE BIENVENIDA</li>
-									<li><img src="img/icon-check.png">ACCESO REVISTA DIGITAL</li>
-									<li><img src="img/icon-check.png">COFFEE ZONE</li>
-									<li><img src="img/icon-check.png">DESCUENTO EN HOTELES</li>
-									<li><img src="img/icon-check.png">APP EXMA</li>
-								</ul>
+						<div class="content-category category-vip" data-toggle="modal" data-target="#benefiets">
+							<h1 class="category exp-1">VIP</h1>
+							<div class="show-benefiets bc-experience-1 c-none">							
+								<div class="content-list">
+									<h3 class="text-uppercase c-default mb-0">Beneficios</h3>
+									<ul>
+										<li><img src="img/icon-check.png">BENEFICIOS</li>
+										<li><img src="img/icon-check.png">2 DÍAS DE CONFERENCIAS PRINCIPALES</li>
+										<li><img src="img/icon-check.png">ACCESO AULAS DE CLASS IN CLASS</li>
+										<li><img src="img/icon-check.png">INGRESO EXCLUSIVO</li>
+										<li><img src="img/icon-check.png">BENEFICIOS EXMA VIP</li>
+										<li><img src="img/icon-check.png">UBICACIÓN PREFERENCIAL (PREFERENCIAL)</li>
+										<li><img src="img/icon-check.png">ACCESO PLATAFORMA VIRTUAL</li>
+										<li><img src="img/icon-check.png">CERTIFICADO DIGITAL</li>
+										<li><img src="img/icon-check.png">KIT DE BIENVENIDA</li>
+										<li><img src="img/icon-check.png">ACCESO REVISTA DIGITAL</li>
+										<li><img src="img/icon-check.png">COFFEE ZONE</li>
+										<li><img src="img/icon-check.png">DESCUENTO EN HOTELES</li>
+										<li><img src="img/icon-check.png">APP EXMA</li>
+									</ul>
+								</div>
 							</div>
 						</div>
 					</div>
 					<div class="content-btn-buy">
-						<button type="button" class="btn btn-buy bc-experience-1">Compra Aquí</button>
+						<a class="btn btn-buy bc-experience-1" href="https://vive.tuboleta.com/Shows/Show.aspx?sh=UEXMA">Compra Aquí</a>
 					</div>
 
 				</div>
 				<div class="col-md-4">
 					<div class="content-men-experience experience-2 mb-5">
-						<div class="content-category">
-							<h1 class="category">Oro</h1>
-						</div>
+						<div class="content-category category-oro">
+							<h1 class="category exp-1">Oro</h1>
+							<div class="show-benefiets bc-experience-2 c-none">							
+								<div class="content-list">
+									<h3 class="text-uppercase c-default mb-0">Beneficios</h3>
+									<ul>
+										<li><img src="img/icon-check.png">BENEFICIOS</li>
+										<li><img src="img/icon-check.png">2 DÍAS DE CONFERENCIAS PRINCIPALES</li>
+										<li><img src="img/icon-check.png">ACCESO AULAS DE CLASS IN CLASS</li>
+										<li><img src="img/icon-check.png">INGRESO EXCLUSIVO</li>
+										<li><img src="img/icon-check.png">BENEFICIOS EXMA VIP</li>
+										<li><img src="img/icon-check.png">UBICACIÓN PREFERENCIAL (PREFERENCIAL)</li>
+										<li><img src="img/icon-check.png">ACCESO PLATAFORMA VIRTUAL</li>
+										<li><img src="img/icon-check.png">CERTIFICADO DIGITAL</li>
+										<li><img src="img/icon-check.png">KIT DE BIENVENIDA</li>
+										<li><img src="img/icon-check.png">ACCESO REVISTA DIGITAL</li>
+										<li><img src="img/icon-check.png">COFFEE ZONE</li>
+										<li><img src="img/icon-check.png">DESCUENTO EN HOTELES</li>
+										<li><img src="img/icon-check.png">APP EXMA</li>
+									</ul>
+								</div>
+							</div>
+						</div>						
 					</div>
 					<div class="content-btn-buy">
-						<button type="button" class="btn btn-buy bc-experience-2">Compra Aquí</button>
+						<a class="btn btn-buy bc-experience-2" href="https://vive.tuboleta.com/Shows/Show.aspx?sh=UEXMA">Compra Aquí</a>
 					</div>
 				</div>
 				<div class="col-md-4">
 					<div class="content-men-experience experience-3 mb-5">
-						<div class="content-category">
-							<h1 class="category">Plata</h1>
+						<div class="content-category category-plata">
+							<h1 class="category exp-2">Plata</h1>							
+							<div class="show-benefiets bc-experience-3 c-none">							
+								<div class="content-list">
+									<h3 class="text-uppercase c-default mb-0">Beneficios</h3>
+									<ul>
+										<li><img src="img/icon-check.png">BENEFICIOS</li>
+										<li><img src="img/icon-check.png">2 DÍAS DE CONFERENCIAS PRINCIPALES</li>
+										<li><img src="img/icon-check.png">ACCESO AULAS DE CLASS IN CLASS</li>
+										<li><img src="img/icon-check.png">INGRESO EXCLUSIVO</li>
+										<li><img src="img/icon-check.png">BENEFICIOS EXMA VIP</li>
+										<li><img src="img/icon-check.png">UBICACIÓN PREFERENCIAL (PREFERENCIAL)</li>
+										<li><img src="img/icon-check.png">ACCESO PLATAFORMA VIRTUAL</li>
+										<li><img src="img/icon-check.png">CERTIFICADO DIGITAL</li>
+										<li><img src="img/icon-check.png">KIT DE BIENVENIDA</li>
+										<li><img src="img/icon-check.png">ACCESO REVISTA DIGITAL</li>
+										<li><img src="img/icon-check.png">COFFEE ZONE</li>
+										<li><img src="img/icon-check.png">DESCUENTO EN HOTELES</li>
+										<li><img src="img/icon-check.png">APP EXMA</li>
+									</ul>
+								</div>
+							</div>
 						</div>
 					</div>
 					<div class="content-btn-buy">
-						<button type="button" class="btn btn-buy bc-experience-3" data-toggle="modal" data-target="#benefiets">Compra Aquí</button>
+						<a class="btn btn-buy bc-experience-3" href="https://vive.tuboleta.com/Shows/Show.aspx?sh=UEXMA">Compra Aquí</a>
 					</div>
 				</div>
 			</div>
@@ -152,15 +198,63 @@
 				    </div>
 		      	</div>
 			    <div class="modal-footer border-0">
-			    	<button type="button" class="btn btn-buy-modal bc-experience-2">Compra Aquí</button>
+			    	<a class="btn btn-buy-modal bc-experience-2" href="https://vive.tuboleta.com/Shows/Show.aspx?sh=UEXMA">Compra Aquí</a>
 			    </div>
 		    </div>
 		  </div>
 		</div>
 		 <!-- End Modal -->
 
+		 <script type="text/javascript">
+			$(document).ready(function(){
 
+				var windowWidth = $(window).width();
 
+				if (windowWidth > 768) {
+					/*VIP */
+					var controlVip = true;
+					$('.category-vip').click(function() {
+						if (controlVip) {
+							$('.category-vip .show-benefiets').addClass('c-flex');
+							$('.category-vip .exp-1').addClass('c-none');
+					    	controlVip = false;
+						} else {
+					    	$('.category-vip .show-benefiets').removeClass('c-flex');
+					    	$('.category-vip .exp-1').removeClass('c-none');
+					    	controlVip = true;
+						}				    
+					});
+
+					/* ORO*/
+					var controlOro = true;
+					$('.category-oro').click(function() {
+						if (controlOro) {
+							$('.category-oro .show-benefiets').addClass('c-flex');
+							$('.category-oro .exp-1').addClass('c-none');
+					    	controlOro = false;
+						} else {
+					    	$('.category-oro .show-benefiets').removeClass('c-flex');
+					    	$('.category-oro .exp-1').removeClass('c-none');
+					    	controlOro = true;
+						}				    
+					});
+
+					/*PLATA */
+					var controlPlata = true;
+					$('.category-plata').click(function() {
+						if (controlPlata) {
+							$('.category-plata .show-benefiets').addClass('c-flex');
+							$('.category-plata .exp-2').addClass('c-none');
+					    	controlPlata = false;
+						} else {
+					    	$('.category-plata .show-benefiets').removeClass('c-flex');
+					    	$('.category-plata .exp-2').removeClass('c-none');
+					    	controlPlata = true;
+						}				    
+					});
+				}
+			});
+		 </script>
 
 
 		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

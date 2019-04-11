@@ -20,6 +20,18 @@
 	font-weight: bold;
 }
 
+.c.block {
+	display: block;
+}
+
+.c-flex {
+	display: flex !important;
+}
+
+.c-none {
+	display: none;
+}
+
 .title {
 	padding: 50px 0px 50px 50px;
 }
@@ -292,6 +304,22 @@ body {
 	justify-content: center;
 }
 
+.content-category:hover .exp-1, .content-category:hover .exp-2 {
+	display: none;
+}
+
+.content-category:hover .show-benefiets {
+	display: flex;
+}
+
+.show-benefiets {
+	width: 100%;
+	display: none;
+    align-items: center;
+    height: 100%;
+    justify-content: center;
+}
+
 .content-list {
 	padding: 5px;
 	width: 100%;
@@ -356,7 +384,7 @@ body {
 }
 
 .experience-1 {
-	background-image: url('img/experience-1.png');
+	background-image: url('img/experience-1-mobile.png');
 	background-size: cover;
 	margin: 0 50px;
 }
@@ -465,7 +493,26 @@ body {
 	display: none;
 }
 
+.modal-open .modal, .modal-backdrop.show{
+	display: none !important;
+}
+
+.modal-open {
+	overflow: auto;
+	padding-right: 0 !important;
+}
+
+
 @media (max-width: 767px) {
+
+	.content-category:hover .exp-1, .content-category:hover .exp-2 {
+		display: block;
+	}
+
+	.content-category:hover .show-benefiets {
+		display: none !important;
+	}
+
 	.show-mobile {
 		display: flex;
 	}
@@ -597,7 +644,7 @@ body {
 	}
 
 	.content-men-experience {
-		height: 200px;
+		height: 300px;
 		margin-bottom: 15px !important;
 	}
 
@@ -617,10 +664,16 @@ body {
 	.modal-benefiets .modal-content .modal-header .btn-close img {
 		width: 20px;
 	}
+	/* modal*/
+
+	.modal-open .modal, .modal-backdrop.show{
+		display: block !important;
+	}
 }
 
 /* Version Tablet */
 @media (min-width: 768px) and (max-width: 1023px) {
+
 	.mt-50 {
 		margin-top: 50px;
 	}
