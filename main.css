@@ -1,0 +1,280 @@
+body {
+	background-color: #000;
+}
+
+.active {
+	color: #9d1953;
+}
+
+.custom-container {
+	max-width: 1280px;
+	margin: 0 auto;
+}
+
+.c-primary {
+	color: #9d1953;
+}
+
+.btn-custom {
+	background-color: #bd1c63;
+	padding: 12px 12px;
+}
+
+.btn-transparent {
+	background-color: transparent;
+	border: 1px solid #fff;
+	padding: 2px 20px;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 24px;
+	font-weight: bold;
+}
+
+.c-arrow {
+	background-color: #c72e75;
+}
+
+.navbar {
+	align-items: baseline;
+}
+
+.navbar .navbar-collapse {
+	text-align: right;
+}
+
+.navbar .navbar-collapse .custom-navbar-nav {
+	flex-direction: row;
+	padding: 0;
+}
+
+.navbar .navbar-collapse .custom-navbar-nav li.active a {
+	color: #9d1953;
+}
+
+.navbar .navbar-collapse .custom-navbar-nav li {
+	display: inline-block;
+	padding: 0 8px;
+}
+
+.navbar .navbar-collapse .custom-navbar-nav li a {
+	color: #fff;
+	font-size: 12px;
+}
+
+.navbar .navbar-toggler {
+	background-color: #000;
+}
+
+.navbar-toggler .icon-bar {
+    display: block;
+    width: 22px;
+    height: 2px;
+    border-radius: 1px;
+}
+
+.navbar-toggler .icon-bar+.icon-bar {
+    margin-top: 4px;
+}
+
+.navbar .navbar-toggler .icon-bar {
+	background-color: #fff;
+}
+
+.content-logo {
+	display: inline-block;
+}
+
+.content-logo-exma {
+	border-right: 2px solid #b0346d;
+	padding-right: 10px;
+}
+
+.content-text-header {
+	font-size: 9px;
+	font-weight: bold;
+	text-align: center;
+	margin-top: 4px;
+}
+
+.content-info {
+	height: 90vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.content-welcome h1, .content-welcome h2 {
+	display: inline-block;
+	color: #fff;
+}
+
+.content-welcome h1 {
+	font-size: 80px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.content-welcome h2 {
+	float: right;
+	font-size: 35px;
+	text-transform: uppercase;
+	text-align: right;
+	font-weight: normal;
+	margin-bottom: 0;
+	margin-top: 15px;
+}
+
+.content-men {
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 480px;
+	background-size: 100% 100%;
+	position: relative;
+}
+
+.content-men .content-btn {
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	align-items: flex-end;
+}
+
+.content-men .content-btn .btn-details {
+	margin-bottom: 120px;
+}
+
+.men-1 {
+	background-image: url('img/men-1.png');	
+}
+
+.men-2 {
+	background-image: url('img/men-2.png');	
+}
+
+.men-3 {
+	background-image: url('img/men-3.png');	
+}
+
+.men-4 {
+	background-image: url('img/men-4.png');	
+}
+
+@media (max-width: 767px) {
+	.mt-50 {
+		margin-top: 50px;
+	}
+
+	.navbar .navbar-collapse .custom-navbar-nav li {
+		display: block;
+		margin: 5px 0;
+	}
+
+	.navbar .navbar-collapse .custom-navbar-nav li:last-child {
+		display: flex;
+		float: right;
+	}
+
+	.navbar .navbar-brand img {
+		width: 80px;
+	}
+
+	.content-info {
+		display: block;
+	}
+
+	.content-welcome h1, .content-welcome h2 {
+		display: block;
+	}
+
+	.content-welcome h1 {
+		font-size: 36px;
+		text-align: center;
+	}
+
+	.content-welcome h2 {
+		text-align: center;
+		float: none;
+		font-size: 16px;
+	}
+
+	.content-men {
+		height: 260px;
+	}
+
+	.men-1 {
+		background-image: url('img/men-1-mobile.png');	
+	}
+
+	.men-2 {
+		background-image: url('img/men-2-mobile.png');	
+	}
+
+	.men-3 {
+		background-image: url('img/men-3-mobile.png');	
+	}
+
+	.men-4 {
+		background-image: url('img/men-4-mobile.png');	
+	}
+	.content-men .content-btn .btn-details {
+		margin-bottom: 20px;
+		font-size: 14px;
+	}
+}
+
+/* Version Tablet */
+@media (min-width: 768px) and (max-width: 1023px) {
+	
+	.navbar .navbar-collapse .custom-navbar-nav li {
+		display: block;
+		margin: 5px 0;
+	}
+
+	.navbar .navbar-collapse .custom-navbar-nav li:last-child {
+		display: flex;
+		float: right;
+	}
+
+	.navbar .navbar-brand img {
+		width: 80px;
+	}
+
+	.content-info {
+		display: block;
+	}
+
+	.content-welcome h1, .content-welcome h2 {
+		display: block;
+	}
+
+	.content-welcome h1 {
+		font-size: 36px;
+		text-align: center;
+	}
+
+	.content-welcome h2 {
+		text-align: center;
+		float: none;
+		font-size: 16px;
+	}
+
+	.content-men {
+		height: 260px;
+	}
+
+	.content-men .content-btn .btn-details {
+		margin-bottom: 20px;
+		font-size: 14px;
+	}
+}
+
+@media (min-width: 992px) {
+	.navbar-expand-lg .navbar-collapse {
+	    display: -webkit-box!important;
+	    display: -ms-flexbox!important;
+	    display: inline-block !important;
+	    -ms-flex-preferred-size: auto;
+	    flex-basis: auto;
+	}
+}
