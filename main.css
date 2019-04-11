@@ -160,8 +160,9 @@ body {
 	padding: 2px 20px;
 	color: #fff;
 	text-transform: uppercase;
-	font-size: 24px;
+	font-size: 20px;
 	font-weight: bold;
+	margin: 0 10px;
 }
 
 .c-arrow {
@@ -230,6 +231,9 @@ body {
 	margin-top: 4px;
 }
 
+.content-welcome {
+	margin: 0 20px;
+}
 
 .content-welcome h1, .content-welcome h2 {
 	display: inline-block;
@@ -270,6 +274,15 @@ body {
 
 .content-men .content-btn .btn-details, .content-men-experience .content-btn .btn-details {
 	margin-bottom: 120px;
+}
+
+.content-men .content-btn .content-arrow {
+	text-align: center;
+	margin-top: 60px;
+}
+
+.content-men .content-btn .content-arrow  img {
+	width: 60px;
 }
 
 .content-men .content-category, .content-men-experience .content-category {
@@ -563,6 +576,18 @@ body {
 		font-size: 8px;
 		margin-left: 15px;
 		margin-right: 15px;
+	}
+
+	.content-men .content-btn .pb-4 {
+		padding-bottom: 10px !important;
+	}
+
+	.content-men .content-btn .content-arrow {
+		margin-top: 10px;
+	}
+
+	.content-men .content-btn .content-arrow img {
+		width: 20px;
 	}
 
 	/* Page experience*/
