@@ -551,7 +551,7 @@ body {
 	margin: 0;
 }
 
-.h-modal.modal-open .modal, .h-modal.modal-backdrop.show{
+.h-modal.modal-open .modal, .h-modal .modal-backdrop.show{
 	display: none !important;
 }
 
