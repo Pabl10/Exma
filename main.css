@@ -380,6 +380,41 @@ body {
 	background-size: 100% 100%;	
 }
 
+.men-5 {
+	background-image: url('img/men-5.png');	
+	background-size: 100% 100%;	
+}
+
+.men-6 {
+	background-image: url('img/men-6.png');	
+	background-size: 100% 100%;	
+}
+
+.men-7 {
+	background-image: url('img/men-7.png');	
+	background-size: 100% 100%;	
+}
+
+.men-8 {
+	background-image: url('img/men-8.png');	
+	background-size: 100% 100%;	
+}
+
+.men-9 {
+	background-image: url('img/men-9.png');	
+	background-size: 100% 100%;	
+}
+
+.men-10 {
+	background-image: url('img/men-10.png');	
+	background-size: 100% 100%;	
+}
+
+.men-11 {
+	background-image: url('img/men-11.png');	
+	background-size: 100% 100%;	
+}
+
 .bc-experience-1 {
 	background-color: #e72b78;
 }
@@ -513,6 +548,7 @@ body {
 
 .show-mobile {
 	display: none;
+	margin: 0;
 }
 
 .h-modal.modal-open .modal, .h-modal.modal-backdrop.show{
@@ -530,7 +566,7 @@ body {
 }
 
 .modal-speaker .modal-dialog .modal-content {
-	background-color: grey;
+	background-color: #212120;
 }
 
 .modal-speaker .modal-dialog .modal-header {
@@ -549,7 +585,8 @@ body {
 }
 
 .modal-speaker .modal-dialog .modal-body .carousel-item .content-info-speaker hr {
-	border-top: 1px solid orange;
+	border-top: 1px solid #D47F1D;
+	height: 1px;
 }
 
 .modal-speaker .modal-dialog .modal-body .carousel-item .content-info-speaker h1 {
