@@ -28,6 +28,10 @@
 	display: flex !important;
 }
 
+.b-top-modal {
+	border-top:1px solid orange;
+}
+
 .c-none {
 	display: none;
 }
@@ -438,7 +442,7 @@ body {
 	z-index: 9;
 }
 
-.modal-benefiets .modal-content .modal-header .btn-close {
+.modal-benefiets .modal-content .modal-header .btn-close, .modal-speaker .modal-dialog .modal-header .btn-close{
 	background-color: transparent;
 	padding: 0;
 }
@@ -472,7 +476,7 @@ body {
 
 /* Carousel*/
 
-.carousel.slide {
+.carousel.slide.items {
 	padding: 0 50px;
 }
 .carousel-control-prev {
@@ -507,17 +511,103 @@ body {
 	display: none;
 }
 
-.modal-open .modal, .modal-backdrop.show{
+.h-modal.modal-open .modal, .h-modal.modal-backdrop.show{
 	display: none !important;
 }
 
-.modal-open {
+.h-modal.modal-open {
 	overflow: auto;
 	padding-right: 0 !important;
 }
 
+/* Modal Speaker**/
+.modal-speaker .modal-dialog {
+	max-width: 900px;
+}
+
+.modal-speaker .modal-dialog .modal-content {
+	background-color: grey;
+}
+
+.modal-speaker .modal-dialog .modal-header {
+	position: absolute;
+	right: 0;
+	z-index: 4;
+}
+
+.modal-speaker .modal-dialog .modal-body {
+	padding: 0;
+}
+
+.modal-speaker .modal-dialog .modal-body .carousel-item .content-info-speaker {
+	padding: 90px 20px;	
+	color: #fff;
+}
+
+.modal-speaker .modal-dialog .modal-body .carousel-item .content-info-speaker hr {
+	border-top: 1px solid orange;
+}
+
+.modal-speaker .modal-dialog .modal-body .carousel-item .content-info-speaker h1 {
+	font-size: 48px;
+	text-transform: uppercase;
+	font-weight: bold;
+	position: relative;
+	right: 85px;
+	color: #fff;
+}
+
+.modal-speaker .modal-dialog .modal-body .carousel-item .content-info-speaker .text-infor {
+	overflow: auto;
+	height: 265px;
+	text-align: justify;
+	padding: 0 15px;
+	color: #fff;
+	font-size: 12px;
+}
+
+.modal-speaker .modal-dialog .modal-body .carousel-item .content-btn-more {
+	position: absolute;
+    bottom: 50px;
+    left: 0;
+    width: 100%;
+    text-align: right;
+    padding-right: 35px;
+}
+
+.modal-speaker .modal-dialog .modal-body .carousel-item .content-btn-more .btn-more {
+	padding: 6px 24px;
+	text-transform: uppercase;
+	font-size: 16px;
+	text-align: center;
+	border-radius: 0;
+	border: 0;
+	color: #fff;
+	background-color: #e72b78;
+	width: 160px;
+}
+
+.modal-speaker .modal-dialog .modal-body .carousel-control-prev, .modal-speaker .modal-dialog .modal-body .carousel-control-next {
+	width: 4%;
+	padding: 0;
+}
+
+.modal-speaker .modal-dialog .modal-body .carousel-control-prev .carousel-control-prev-icon {
+	border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-right: 10px solid #c72e75;
+}
+
+.modal-speaker .modal-dialog .modal-body .carousel-control-next .carousel-control-next-icon {
+	border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-left: 10px solid #c72e75;
+}
 
 @media (max-width: 767px) {
+	.carousel.slide.items {
+		display: none;
+	}
 
 	.content-category:hover .exp-1, .content-category:hover .exp-2 {
 		display: block;
@@ -573,7 +663,7 @@ body {
 		font-size: 10px;
 	}
 
-	.carousel.slide {
+	.carousel.slide.item {
 		display: none;
 	}
 	.mt-50 {
@@ -680,8 +770,35 @@ body {
 	}
 	/* modal*/
 
-	.modal-open .modal.show, .modal-backdrop.show{
+	.h-modal.modal-open .modal.show, .modal-backdrop.show{
 		display: block !important;
+	}
+	.modal-speaker .modal-dialog .modal-body .carousel-item img {
+		height: 100%;
+	}
+
+	.modal-speaker .modal-dialog .modal-body .carousel-item .content-info-speaker {
+		position: relative;
+		right: 70px;
+		width: 230px;
+		padding: 80px 0;
+	}
+
+	.modal-speaker .modal-dialog .modal-body .carousel-item .content-info-speaker h1 {
+		font-size: 30px;
+		right: 0;
+	}
+
+	.modal-speaker .modal-dialog .modal-body .carousel-control-prev, .modal-speaker .modal-dialog .modal-body .carousel-control-next {
+		padding: 0;
+	}
+
+	.modal-speaker .modal-dialog .modal-body .carousel-item .content-info-speaker .text-infor {
+		height: 140px;		
+	}
+	.modal-speaker .modal-dialog .modal-body .carousel-item .content-btn-more {
+		bottom: 20px;
+		left: -50px;
 	}
 }
 
@@ -691,7 +808,7 @@ body {
 	.mt-50 {
 		margin-top: 50px;
 	}
-	.carousel.slide {
+	.carousel.slide.items {
 		display: none;
 	}
 	.show-mobile {
