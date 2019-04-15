@@ -180,7 +180,7 @@ body {
 	padding: 2px 20px;
 	color: #fff;
 	text-transform: uppercase;
-	font-size: 20px;
+	font-size: 16px;
 	font-weight: bold;
 	margin: 0 10px;
 }
@@ -361,57 +361,57 @@ body {
 }
 
 .men-1 {
-	background-image: url('img/men-1.png');	
+	background-image: url('img/speakers/desktop/men-1.png');	
 	background-size: 100% 100%;
 }
 
 .men-2 {
-	background-image: url('img/men-2.png');	
+	background-image: url('img/speakers/desktop/men-2.png');	
 	background-size: 100% 100%;	
 }
 
 .men-3 {
-	background-image: url('img/men-3.png');	
+	background-image: url('img/speakers/desktop/men-3.png');	
 	background-size: 100% 100%;	
 }
 
 .men-4 {
-	background-image: url('img/men-4.png');	
+	background-image: url('img/speakers/desktop/men-4.png');	
 	background-size: 100% 100%;	
 }
 
 .men-5 {
-	background-image: url('img/men-5.png');	
+	background-image: url('img/speakers/desktop/men-5.png');	
 	background-size: 100% 100%;	
 }
 
 .men-6 {
-	background-image: url('img/men-6.png');	
+	background-image: url('img/speakers/desktop/men-6.png');	
 	background-size: 100% 100%;	
 }
 
 .men-7 {
-	background-image: url('img/men-7.png');	
+	background-image: url('img/speakers/desktop/men-7.png');	
 	background-size: 100% 100%;	
 }
 
 .men-8 {
-	background-image: url('img/men-8.png');	
+	background-image: url('img/speakers/desktop/men-8.png');	
 	background-size: 100% 100%;	
 }
 
 .men-9 {
-	background-image: url('img/men-9.png');	
+	background-image: url('img/speakers/desktop/men-9.png');	
 	background-size: 100% 100%;	
 }
 
 .men-10 {
-	background-image: url('img/men-10.png');	
+	background-image: url('img/speakers/desktop/men-10.png');	
 	background-size: 100% 100%;	
 }
 
 .men-11 {
-	background-image: url('img/men-11.png');	
+	background-image: url('img/speakers/desktop/men-11.png');	
 	background-size: 100% 100%;	
 }
 
@@ -428,19 +428,19 @@ body {
 }
 
 .experience-1 {
-	background-image: url('img/experience-1-mobile.png');
+	background-image: url('img/experience/desktop/experience-1.png');
 	background-size: cover;
 	margin: 0 50px;
 }
 
 .experience-2 {
-	background-image: url('img/experience-2.png');
+	background-image: url('img/experience/desktop/experience-2.png');
 	background-size: cover;
 	margin: 0 50px;
 }
 
 .experience-3 {
-	background-image: url('img/experience-3.png');
+	background-image: url('img/experience/desktop/experience-3.png');
 	background-size: cover;
 	margin: 0 50px;
 }
@@ -708,7 +708,7 @@ body {
 		display: none;
 	}
 	.mt-50 {
-		margin-top: 50px;
+		margin-top: 30px;
 	}
 
 	.navbar .navbar-collapse .custom-navbar-nav li {
@@ -749,30 +749,69 @@ body {
 	}
 
 	.men-1 {
-		background-image: url('img/men-1-mobile.png');	
+		background-image: url('img/speakers/mobile/men-1.png');	
+		background-size: 100% 100%;
 	}
 
 	.men-2 {
-		background-image: url('img/men-2-mobile.png');	
+		background-image: url('img/speakers/mobile/men-2.png');	
+		background-size: 100% 100%;	
 	}
 
 	.men-3 {
-		background-image: url('img/men-3-mobile.png');	
+		background-image: url('img/speakers/mobile/men-3.png');	
+		background-size: 100% 100%;	
 	}
 
 	.men-4 {
-		background-image: url('img/men-4-mobile.png');	
+		background-image: url('img/speakers/mobile/men-4.png');	
+		background-size: 100% 100%;	
+	}
+
+	.men-5 {
+		background-image: url('img/speakers/mobile/men-5.png');	
+		background-size: 100% 100%;	
+	}
+
+	.men-6 {
+		background-image: url('img/speakers/mobile/men-6.png');	
+		background-size: 100% 100%;	
+	}
+
+	.men-7 {
+		background-image: url('img/speakers/mobile/men-7.png');	
+		background-size: 100% 100%;	
+	}
+
+	.men-8 {
+		background-image: url('img/speakers/mobile/men-8.png');	
+		background-size: 100% 100%;	
+	}
+
+	.men-9 {
+		background-image: url('img/speakers/mobile/men-9.png');	
+		background-size: 100% 100%;	
+	}
+
+	.men-10 {
+		background-image: url('img/speakers/mobile/men-10.png');	
+		background-size: 100% 100%;	
+	}
+
+	.men-11 {
+		background-image: url('img/speakers/mobile/men-11.png');	
+		background-size: 100% 100%;	
 	}
 	.content-men .content-btn .btn-details {
 		margin-bottom: 20px;
-		font-size: 8px;
-		padding-left: 15px;
-		padding-right: 15px;
+		font-size: 6px;
+		padding-left: 10px;
+		padding-right: 10px;
 	}
 
 	.content-men .content-btn .pb-4 {
 		padding-bottom: 10px !important;
-		padding-top: 150px;
+		padding-top: 50px;
 	}
 
 	.content-men .content-btn .content-arrow {
@@ -792,11 +831,22 @@ body {
 	.content-men-experience {
 		height: 300px;
 		margin-bottom: 15px !important;
-		background-size: 100% 100%;
 	}
 
 	.experience-1 {
-		background-image: url('img/experience-1-mobile.png');		
+		background-image: url('img/experience/mobile/experience-1-mobile.png');		
+	}
+
+	.experience-2 {
+		background-image: url('img/experience/mobile/experience-2-mobile.png');
+		background-size: cover;
+		margin: 0 50px;
+	}
+
+	.experience-3 {
+		background-image: url('img/experience/mobile/experience-3-mobile.png');
+		background-size: cover;
+		margin: 0 50px;
 	}
 
 	.btn-buy {
@@ -813,7 +863,7 @@ body {
 	}
 	/* modal*/
 
-	.h-modal.modal-open .modal.show, .modal-backdrop.show{
+	.h-modal.modal-open .modal.show, .h-modal .modal-backdrop.show{
 		display: block !important;
 	}
 	.modal-speaker .modal-dialog .modal-body .carousel-item img {
@@ -822,14 +872,18 @@ body {
 
 	.modal-speaker .modal-dialog .modal-body .carousel-item .content-info-speaker {
 		position: relative;
-		right: 70px;
+		right: 100px;
 		width: 230px;
 		padding: 80px 0;
 	}
 
 	.modal-speaker .modal-dialog .modal-body .carousel-item .content-info-speaker h1 {
-		font-size: 30px;
+		font-size: 19px;
 		right: 0;
+	}
+
+	.modal-speaker .modal-dialog .modal-body .carousel-item .content-info-speaker p {
+		font-size: 12px;
 	}
 
 	.modal-speaker .modal-dialog .modal-body .carousel-control-prev, .modal-speaker .modal-dialog .modal-body .carousel-control-next {
@@ -849,7 +903,7 @@ body {
 @media (min-width: 768px) and (max-width: 1023px) {
 
 	.mt-50 {
-		margin-top: 50px;
+		margin-top: 40px;
 	}
 	.carousel.slide.items {
 		display: none;
@@ -898,10 +952,6 @@ body {
 		text-align: center;
 		float: none;
 		font-size: 16px;
-	}
-
-	.content-men {
-		height: 260px;
 	}
 
 	.content-men .content-btn .btn-details {
