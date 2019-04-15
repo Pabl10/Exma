@@ -645,7 +645,12 @@ body {
     border-left: 10px solid #c72e75;
 }
 
+#modal-plata, #modal-oro, #modal-vip {
+	display: none !important;
+}
+
 @media (max-width: 767px) {
+
 	.carousel.slide.items {
 		display: none;
 	}
