@@ -645,7 +645,7 @@ body {
     border-left: 10px solid #c72e75;
 }
 
-#modal-plata, #modal-oro, #modal-vip {
+.h-modal .modal, .h-modal .modal-backdrop {
 	display: none !important;
 }
 
