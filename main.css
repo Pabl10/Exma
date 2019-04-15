@@ -745,7 +745,7 @@ body {
 	}
 
 	.content-men {
-		height: 185px;
+		height: auto;
 	}
 
 	.men-1 {
@@ -766,12 +766,13 @@ body {
 	.content-men .content-btn .btn-details {
 		margin-bottom: 20px;
 		font-size: 8px;
-		margin-left: 15px;
-		margin-right: 15px;
+		padding-left: 15px;
+		padding-right: 15px;
 	}
 
 	.content-men .content-btn .pb-4 {
 		padding-bottom: 10px !important;
+		padding-top: 150px;
 	}
 
 	.content-men .content-btn .content-arrow {
@@ -791,6 +792,7 @@ body {
 	.content-men-experience {
 		height: 300px;
 		margin-bottom: 15px !important;
+		background-size: 100% 100%;
 	}
 
 	.experience-1 {
