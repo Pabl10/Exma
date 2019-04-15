@@ -879,7 +879,7 @@ body {
 		position: relative;
 		right: 100px;
 		width: 230px;
-		padding: 80px 0;
+		padding: 80px 0 0;
 	}
 
 	.modal-speaker .modal-dialog .modal-body .carousel-item .content-info-speaker h1 {
@@ -899,8 +899,15 @@ body {
 		height: 140px;		
 	}
 	.modal-speaker .modal-dialog .modal-body .carousel-item .content-btn-more {
-		bottom: 20px;
-		left: -50px;
+		position: initial;
+		padding: 10px;
+	}
+	.modal-speaker .modal-dialog .modal-body .carousel-item .content-btn-more .btn-more {
+		width: 130px;
+	}
+	.modal-speaker .modal-dialog .modal-body .carousel-item .content-info-speaker .text {
+		height: 70px;
+		overflow: auto;
 	}
 }
 
